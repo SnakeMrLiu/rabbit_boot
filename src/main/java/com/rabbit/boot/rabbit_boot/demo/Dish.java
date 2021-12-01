@@ -35,6 +35,8 @@ class Demo{
         lenStream();
         turnUpperCase();
         distinctStream();
+
+        
         sortStream();
     }
     public static void sortStream() {
