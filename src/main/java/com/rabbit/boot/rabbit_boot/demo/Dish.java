@@ -20,6 +20,7 @@ public class Dish {
 }
 class Demo{
     public static void main(String[] args) {
+        System.out.println("asd");
         jdk8();
         lenStream();
         turnUpperCase();
