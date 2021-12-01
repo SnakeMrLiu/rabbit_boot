@@ -14,20 +14,9 @@ import java.util.stream.Stream;
 @Data
 @AllArgsConstructor
 public class Dish {
-
-
     private String name;
-
-
     private  boolean vegetarian;
-
-
     private int calories;
-
-
-
-// getter and setter
-
 }
 class Demo{
     public static void main(String[] args) {
@@ -35,8 +24,6 @@ class Demo{
         lenStream();
         turnUpperCase();
         distinctStream();
-
-        
         sortStream();
     }
     public static void sortStream() {
